@@ -5,9 +5,11 @@ A complete **Java console-based e-commerce platform** that supports **customer r
 
 ---
 
-## ✅ Features
+---
 
-### 👨‍💼 Admin Role
+## Features
+
+### Admin Role
 - Validates customer login credentials
 - Ensures password and email meet specific criteria
 - Displays available products with full details
@@ -16,7 +18,7 @@ A complete **Java console-based e-commerce platform** that supports **customer r
 - Updates quantity and product availability status
 - Handles shipment processing for shipping-eligible items
 
-### 👤 Customer Role
+### Customer Role
 - Register using a secure password and Gmail address
 - Log in using username and password
 - Add available products to their cart (limited to 20 items max)
@@ -27,7 +29,7 @@ A complete **Java console-based e-commerce platform** that supports **customer r
 
 ---
 
-## 📦 Product Features
+## Product Features
 
 Each `Product` supports:
 - Name, Price, Quantity
@@ -45,13 +47,13 @@ public interface Shipping {
 }
 ```
 
-> 🛳️ Shipping fee is calculated as `10$ per kg * weight * quantity`.
+> Shipping fee is calculated as `10$ per kg * weight * quantity`.
 
 ---
 
-## 🧾 Validation
+## Validation
 
-### 🔐 Password Validation
+### Password Validation
 - At least 8 characters long
 - Contains at least:
   - One lowercase letter
@@ -59,7 +61,7 @@ public interface Shipping {
   - One digit
   - One special character (`@#$%^&+=!`)
 
-### 📧 Email Validation
+### Email Validation
 - Only accepts Gmail accounts in this format:
 ```
 example@gmail.com
@@ -67,7 +69,7 @@ example@gmail.com
 
 ---
 
-## 🗃️ System Structure
+## System Structure
 
 ```bash
 📁 src/
@@ -80,7 +82,7 @@ example@gmail.com
 
 ---
 
-## 🧪 Preloaded Data
+## Preloaded Data
 
 ### 🧾 Products:
 | ID | Name        | Price   | Quantity | Shipping | Weight (kg) | Expired | Days to Expire | Status       |
@@ -101,7 +103,7 @@ example@gmail.com
 
 ---
 
-## 🧾 Checkout Receipt Example
+## Checkout Receipt Example
 
 ```
   ** Checkout receipt **
@@ -117,7 +119,7 @@ Remaining Balance: -904.97$ (Insufficient Funds)
 
 ---
 
-## 📦 Shipping Receipt Example
+## Shipping Receipt Example
 
 ```
  ** Shipment Notice **
@@ -130,7 +132,7 @@ Shipping Fee: $29.0
 
 ---
 
-## 📌 System Flow
+## System Flow
 
 1. Program starts with a welcome message.
 2. User chooses to register, login, or interact as a logged-in user.
@@ -145,23 +147,7 @@ Shipping Fee: $29.0
 
 ---
 
-## 🛠️ How to Run
-
-> Ensure you have **Java JDK** installed.
-
-### Compile:
-```bash
-javac *.java
-```
-
-### Run:
-```bash
-java Main
-```
-
----
-
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - GUI support using JavaFX or Swing
 - Persistent data storage (file system or database)
@@ -173,33 +159,25 @@ java Main
 
 ---
 
-## 👨‍💻 Developed By
+## Developed By
 
 **Tasneem Mohamed**  
-🎓 Java Developer & Software Engineering Student  
-🌍 Egypt  
 
-> This project was built as a hands-on learning system for object-oriented programming (OOP), data structures, and practical console I/O in Java.
+> This project was built as a hands-on learning system for object-oriented programming (OOP), data structures, and practical console I/O in Java For Fawry Challenge.
 
 ---
 
-## 📃 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📣 Final Words
+## Final Words
 
 This project demonstrates:
 - Clear **OOP principles**
 - Real-world **e-commerce simulation**
 - Solid understanding of **validation**, **data flow**, and **business logic**
-
-Perfect for:
-- Course projects
-- Bootcamp practice
-- Interview preparation
-- Extending into a larger Java or Spring Boot project
 
 Happy coding! ☕️💻
