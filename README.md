@@ -4,6 +4,17 @@
 A complete **Java console-based e-commerce platform** that supports **customer registration, login, product carting, checkout with shipping**, and robust validation mechanisms. This system features both **Admin** and **Customer** roles with prefilled data for ease of testing and simulation.
 
 ---
+## Table Of Content
+- [Features](#features)
+- [Product Features](#product-features)
+- [Validation](#validation)
+- [System Structure](#system-structure)
+- [Preloaded Data](#preloaded-data)
+- [Checkout Receipt Example](#checkout-receipt-example)
+- [Shipping Receipt Example](#shipping-receipt-example)
+- [System Flow](#system-flow)
+- [Developed By](#developed-by)
+- [Final Words](#final-words)
 
 ---
 
@@ -161,15 +172,9 @@ Shipping Fee: $29.0
 
 ## Developed By
 
-**Tasneem Mohamed**  
+## **Tasneem Mohamed**  
 
 > This project was built as a hands-on learning system for object-oriented programming (OOP), data structures, and practical console I/O in Java For Fawry Challenge.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
