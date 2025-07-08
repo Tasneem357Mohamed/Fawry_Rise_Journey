@@ -44,7 +44,7 @@ public class Main
         String answer;
         while(true)
         {
-            System.out.println("Welcome In Our E-commerce System ^^");
+            System.out.println("Welcome To Our E-commerce System ^^");
             System.out.println("===================================");
             int ans;
             // called the customer functions

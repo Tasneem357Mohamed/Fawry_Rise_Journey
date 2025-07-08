@@ -138,7 +138,7 @@ public class Admin
                 }
             }
             System.out.println(quantity + "x " + pro.getName() + "          " + pro.getWeight()/1000.0 + "g");
-            totalweight += pro.getWeight();
+            totalweight += (pro.getWeight() * quantity);
         }
         System.out.println("Total package weight  " + totalweight + "kg");
     }
